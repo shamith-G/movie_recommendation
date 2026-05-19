@@ -1,5 +1,5 @@
-# Ignore README.md
-README.md
+# Ignore BACKEND
+BACKEND
 .env
 .venv
 __pycache__
