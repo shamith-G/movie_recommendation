@@ -1,4 +1,6 @@
+# Ignore README.md
+README.md
 .env
 .venv
 __pycache__
-README.md
+
