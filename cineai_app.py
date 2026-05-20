@@ -18,8 +18,6 @@ TMDB_BASE      = "https://api.themoviedb.org/3"
 IMG_W500       = "https://image.tmdb.org/t/p/w500"
 IMG_ORIG       = "https://image.tmdb.org/t/p/original"
 BASE_DIR       = os.path.dirname(os.path.abspath(__file__))
-api_key = st.secrets["TMDB_API_KEY"]
-
 # ─── PAGE CONFIG ──────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="CineAI – Movie Recommender",
@@ -90,7 +88,7 @@ def tfidf_recommend(title, top_n=12):
 # rest of your code below...
 def fetch_movies():
     url = f"https://api.themoviedb.org/3/movie/popular"
-    params = {"api_key": api_key, "language": "en-US"}
+    params = {"api_key": TMDB_API_KEY, "language": "en-US"}
     ...
 
 # ─── HELPERS ──────────────────────────────────────────────────────────────────
