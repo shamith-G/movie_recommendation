@@ -219,7 +219,6 @@ with st.sidebar:
             st.rerun()
 
     st.markdown("---")
-    st.markdown("[API Docs](https://movie-recommendation-hiil.onrender.com)")
 
 # ─── HEADER ─────────────────────────────────────────────────────────────────
 h1, h2 = st.columns([1.4, 6])
